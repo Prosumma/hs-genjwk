@@ -35,12 +35,8 @@ library
       aeson
     , base >=4.7 && <5
     , base64-bytestring
-    , optparse-applicative
     , rio
-    , servant
-    , servant-auth
     , servant-auth-server
-    , servant-server
   default-language: Haskell2010
 
 executable genjwk
@@ -55,12 +51,8 @@ executable genjwk
     , base >=4.7 && <5
     , base64-bytestring
     , genjwk
-    , optparse-applicative
     , rio
-    , servant
-    , servant-auth
     , servant-auth-server
-    , servant-server
   default-language: Haskell2010
 
 test-suite genjwk-test
@@ -76,10 +68,6 @@ test-suite genjwk-test
     , base >=4.7 && <5
     , base64-bytestring
     , genjwk
-    , optparse-applicative
     , rio
-    , servant
-    , servant-auth
     , servant-auth-server
-    , servant-server
   default-language: Haskell2010
